@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Access https://www.exercise1.com/values website" name="Need to verify the right number of values appear on the screen" time="0">
+<system-out><![CDATA[Then I Should see Value "$122,365.24" in Value1 Field.......................skipped
+]]></system-out>
+</testcase>
+</testsuite>

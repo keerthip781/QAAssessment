@@ -1,0 +1,45 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Need to verify the right number of values appear on the screen",
+        "description": "",
+        "id": "access-https://www.exercise1.com/values-website;need-to-verify-the-right-number-of-values-appear-on-the-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 4,
+                "value": "#When I open exercisesel website"
+              }
+            ],
+            "line": 5,
+            "name": "I Should see Value \"$122,365.24\" in Value1 Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$122,365.24",
+                  "offset": 20
+                }
+              ],
+              "location": "AmoutValidationSteps.validate_value1_Field(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Access https://www.exercise1.com/values website",
+    "description": "",
+    "id": "access-https://www.exercise1.com/values-website",
+    "keyword": "Feature",
+    "uri": "NumberOfValues.feature"
+  }
+]
